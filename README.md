@@ -10,3 +10,4 @@ Ctrl+Alt+S to open script viewer. Click on the second tab (not Interpreter). it 
 Figure out a way to create a cursor MCP to connect with this controller 
 Cursor Docs: https://docs.cursor.com/context/model-context-protocol#model-context-protocol
 
+NOTE: run this command to install necessary stuff pip install FL-Studio-API-Stubs
