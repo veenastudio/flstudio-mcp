@@ -10,8 +10,9 @@ import patterns
 import arrangement
 import general
 import device
+import mixer  # Add this missing import
 import time
-import threading
+# import threading
 import sys
 
 # Global variables
@@ -26,18 +27,18 @@ step_to_edit = 0
 
 def OnInit():
     """Called when the script is loaded by FL Studio"""
-    print("FL Studio Terminal Beat Builder initialized")
+    print("FL Studio MIDI Controller initialized")
     print("Type 'help' for a list of commands")
     
     # Start the terminal input thread
-    start_terminal_thread()
+    # start_terminal_thread()
     return
 
 def OnDeInit():
     """Called when the script is unloaded by FL Studio"""
     global running
     running = False  # Signal the terminal thread to exit
-    print("FL Studio Terminal Beat Builder deinitialized")
+    print("FL Studio MIDI Controller deinitialized")
     return
 
 def OnRefresh(flags):
@@ -121,14 +122,13 @@ def OnTempoChange(tempo):
     return
 
 # Terminal interface functions
-def start_terminal_thread():
-    """Start a thread to handle terminal input"""
-    global terminal_active
-    if not terminal_active:
-        terminal_active = True
-        thread = threading.Thread(target=terminal_loop)
-        thread.daemon = True
-        thread.start()
+# def start_terminal_thread():
+#     """Start a thread to handle terminal input"""
+#     global terminal_active
+#     if not terminal_active:
+#         terminal_active = True
+#         thread = threading.Thread(target=terminal_loop)
+#         thread.start()
 
 def terminal_loop():
     """Main terminal input loop"""
