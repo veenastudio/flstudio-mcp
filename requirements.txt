@@ -1,0 +1,2 @@
+mido==1.3.3
+python-rtmidi==1.5.8

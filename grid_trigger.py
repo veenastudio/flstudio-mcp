@@ -88,7 +88,9 @@ def create_channel(name):
 # Set a specific step in the step sequencer grid
 def set_step(channel, step, enabled=True, velocity=100):
     """
-    Set a step in the FL Studio step sequencer grid
+    Set a step in the FL Studio step sequencer grid. 
+    Basically a midi note. 
+    (The visual element of the Midi Note in the channel rack). 
     
     Args:
         channel: Channel index (0-based)
