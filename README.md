@@ -1,6 +1,6 @@
 # flstudio MCP
 
-# This is an MCP server that connect to FL Studio.
+# This is an MCP server that connects Claude to FL Studio.
 Made this in 3 days. We're open sourcing it to see what we can actually get out of it. The possibilities are endless.
 
 ## If you're running to any issues, join our discord and we can setup it for you.
