@@ -1,4 +1,4 @@
-# flstudio-mcp
+# flstudio MCP
 
 # This is an MCP server that connect to FL Studio.
 Made this in 3 days. We're open sourcing it to see what we can actually get out of it. The possibilities are endless.
