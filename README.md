@@ -76,9 +76,11 @@ output_port = mido.open_output('loopMIDI Port 2')
 
 
 ## Step 7: Make Music
-
 Use the MCP to send melodies, chords, drums, etc.
 
 Click on the instrument you want to record to and it will live record to the piano roll of that instrument.
 
 I tend to use this prompt when I start a new chat: Here is format for notes: note(0-127),velocity(0-100),length in beats(decimal),position in beats(decimal)
+
+## Step 8: Share what you made
+Share what you made on our Discord: https://discord.gg/ZjG9TaEhvy
