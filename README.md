@@ -53,6 +53,8 @@ Change controller type from (generic controller) to Test Controller.
 ## Step 5: Download Packages
 Go to the folder with the trigger.py file. (This is the MCP Server file)
 
+Activate the conda environment (like you learned in the Claude MCP Setup Tutorial)
+
 Run this command to download the necessary packages: uv pip install httpx mido python-rtmidi typing fastmcp FL-Studio-API-Stubs
 (uv should be installed from the Claude MCP setup)
 
