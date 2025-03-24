@@ -27,6 +27,10 @@ If the Hammer icon doesn't show up, open Task Manager and force close the Claude
 
 It should then show up.
 
+This is what my config file looks like
+
+![mcp](https://github.com/user-attachments/assets/e8e609f7-eaa4-469b-9140-c05b5a9bf242)
+
 ## Step 3: Set Up Virtual MIDI Ports
 
 ### For Windows
