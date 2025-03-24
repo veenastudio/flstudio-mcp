@@ -89,3 +89,20 @@ I tend to use this prompt when I start a new chat: Here is format for notes: not
 
 ## Step 8: Share what you made
 Share what you made on our Discord: https://discord.gg/ZjG9TaEhvy
+
+## Credits
+FL Studio API Stubs: https://github.com/IL-Group/FL-Studio-API-Stubs
+
+## Nerd Stuff
+If you want to contribute please go ahead. 
+
+The way this works is that device_test.py behaves as a virtual MIDI Controller.
+The MCP server (trigger.py) communicates with this MIDI Controller by opening a Virtual Port and sending MIDI messages through a library called MIDO.
+
+The issue with MIDI messages is that its only 7 bits so we can only send in number from 0-127.
+
+So we encrypt all of our MIDI data like note position, etc in multiple MIDI notes that the device knows how to read.
+
+Hopefully, Image Line can give us more access to their DAW via their API so we don't have to do this MIDI nonsense.
+
+
