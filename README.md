@@ -92,6 +92,7 @@ Share what you made on our Discord: https://discord.gg/ZjG9TaEhvy
 
 ## Credits
 FL Studio API Stubs: https://github.com/IL-Group/FL-Studio-API-Stubs
+Ableton MCP: https://github.com/ahujasid/ableton-mcp
 
 ## Nerd Stuff
 If you want to contribute please go ahead. 
