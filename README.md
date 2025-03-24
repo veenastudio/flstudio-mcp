@@ -4,7 +4,7 @@
 Made this in 3 days. We're open sourcing it to see what we can actually get out of it. The possibilities are endless.
 
 ## If you're running to any issues, join our discord and we can setup it for you.
-(also join if you interested in the future of music and AI)
+(also join if you interested in the future of music and AI or want to request features. we're building this with you)
 https://discord.gg/ZjG9TaEhvy
 
 ## Step 1: Download the Files
