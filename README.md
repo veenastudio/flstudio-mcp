@@ -23,6 +23,8 @@ Follow this tutorial to see how to setup MCP servers in Claude by edyting the cl
 
 https://modelcontextprotocol.io/quickstart/server
 
+If you followed this process, make sure to change whatever mentions of weather.py to trigger.py
+
 If the Hammer icon doesn't show up, open Task Manager and force close the Claude process.
 
 It should then show up.
