@@ -8,6 +8,11 @@ Made this in 3 days. We're open sourcing it to see what we can actually get out 
 
 https://discord.gg/ZjG9TaEhvy
 
+We're also working on a full fledeged DAW with ai Features. Join the waitlist at www.veena.studio
+
+We're going to launch an alpha soon.
+
+
 ## Step 1: Download the Files
 You should see two main items.
 
