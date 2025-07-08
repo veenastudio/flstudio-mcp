@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/veenastudio-flstudio-mcp-badge.png)](https://mseep.ai/app/veenastudio-flstudio-mcp)
+
 # flstudio MCP
 
 # This is an MCP server that connects Claude to FL Studio.
